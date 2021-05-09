@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+body{
+	background-image: url('logo.png');
+	background-repeat:repeat;
+}
+.container{
+	z-index: 999999;
+}
+/*Техт*/
+h6{
+    background: rgb(80, 80, 80);
+        color: rgb(255, 255, 255);
+        border-radius: 1em;
+        padding: 1em;
+		font-family: 'Jura', sans-serif;
+      text-align: center;       
+		
+	}
+	.topbutton {
+		width:100px;
+		border:2px solid rgb(34, 34, 34);
+		background:rgb(80, 80, 80);
+		left: 1240px;
+		padding:10px;
+		position:fixed;
+		bottom:50px;
+		right:50px;
+		cursor:pointer;
+		color:rgb(255, 255, 255);
+		font-family:verdana;
+		font-size:12px;
+		border-radius: 5px;
+		-moz-border-radius: 11px;
+		-webkit-border-radius: 11px;
+		-khtml-border-radius: 11px;
+		}
+	.Morgg{	
+    	min-width: 30%;
+	max-width: 60%;
+			float: none;
+			border-radius: 7%;
+			margin:40px;
+			filter: contrast(150%);	
+			margin:40px;
+	
+		}
+.Morg{
+	min-width: 30%;
+	max-width: 60%;
+	float: none;
+	border-radius: 27%;
+	margin:40px;
+	filter: blur(1px);
+}
+
+.Morg:hover{
+	filter:blur(0);
+	filter:contrast(150%);
+}
+
+
+h1{
+	text-align: center;
+	color: rgb(255, 196, 0)
+	
+}
+
+
+/*3-D*/
+
+
+
+
+.z-text {
+	transform: rotateX(-20deg);
+	transition: transform 1s;
+}
+
+.z-layer:not(:first-child) {
+	color: rgb(151, 116, 2);
+}
+.nav-link{
+	color: lightgrey !important;;
+}
